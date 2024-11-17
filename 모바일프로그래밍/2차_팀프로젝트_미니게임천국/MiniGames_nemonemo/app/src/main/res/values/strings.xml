@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">네모네모, 미니천국!</string>
+    <string name="image_description"></string>
+
+    <string name="omok_description">
+    <![CDATA[
+    오목하는 방법!\n
+    1. 오목은 두 명이 번갈아 가며 돌을 놓는 게임입니다.\n\n
+    2. 선공(흑돌)이 먼저 돌을 놓고, 후공(백돌)이 그 다음에 돌을 놓습니다.\n\n
+    3. 돌은 바둑판의 교차점에 놓습니다.\n\n
+    4. 먼저 자신의 돌을 가로, 세로, 대각선 방향으로 다섯 개 연속으로 놓는 플레이어가 승리합니다.
+    ]]>
+</string>
+    >
+</resources>

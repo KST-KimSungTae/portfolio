@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCCD7F"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/blacktext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/passButton2"
+        android:gravity="center"
+        android:rotation="180"
+        android:text="흑색의 차례"
+        android:fontFamily="@font/bmjuab"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/passButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@id/gridLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:rotation="180"
+        android:fontFamily="@font/bmjuab"
+        android:text="패스" />
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:columnCount="8"
+        android:rowCount="8">
+
+        <!-- 각 셀을 나타내는 버튼들 -->
+        <android.widget.Button
+            android:id="@+id/cell_00"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_01"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_02"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_03"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_04"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_05"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_06"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_07"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_10"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_11"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_12"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_13"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_14"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_15"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_16"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_17"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_20"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_21"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_22"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_23"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_24"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_25"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_26"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_27"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_30"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_31"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_32"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_33"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_34"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_35"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_36"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_37"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_40"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_41"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_42"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_43"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_44"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_45"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_46"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_47"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_50"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_51"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_52"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_53"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_54"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_55"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_56"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_57"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_60"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_61"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_62"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_63"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_64"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_65"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_66"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_67"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_70"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_71"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_72"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_73"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_74"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_75"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_76"
+            style="@style/CellButton" />
+
+        <android.widget.Button
+            android:id="@+id/cell_77"
+            style="@style/CellButton" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/passButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/gridLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/bmjuab"
+        android:text="패스" />
+    <TextView
+        android:id="@+id/whitetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="백색의 차례"
+        android:textSize="30sp"
+        android:fontFamily="@font/bmjuab"
+        android:layout_below="@id/passButton"/>
+
+</RelativeLayout>

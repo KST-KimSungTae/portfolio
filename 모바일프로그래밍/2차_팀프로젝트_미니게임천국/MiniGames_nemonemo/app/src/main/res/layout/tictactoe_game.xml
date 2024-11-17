@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backcol"
+    >
+
+
+    <TextView
+        android:text="★틱택토 게임☆"
+        android:fontFamily="@font/bmjuab"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_above="@id/gridLayout"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/gridLayout">
+
+        <TextView
+            android:id="@+id/Otext"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="O의 차례"
+            android:fontFamily="@font/bmjuab"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/Xtext"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bmjuab"
+            android:gravity="center"
+            android:text="X의 차례"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@color/black">
+
+        <ImageButton
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/tictactoeboard"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:id="@+id/Tbtn00"
+            android:layout_gravity="center"
+            />
+
+        <ImageButton
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/tictactoeboard"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:id="@+id/Tbtn10"/>
+        <ImageButton
+            android:layout_column="2"
+            android:layout_row="0"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/tictactoeboard"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:id="@+id/Tbtn20"/>
+        <ImageButton
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/tictactoeboard"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:id="@+id/Tbtn01"/>
+        <ImageButton
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/tictactoeboard"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:id="@+id/Tbtn11"/>
+        <ImageButton
+            android:layout_column="2"
+            android:layout_row="1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/tictactoeboard"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:id="@+id/Tbtn21"/>
+        <ImageButton
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/tictactoeboard"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:id="@+id/Tbtn02"/>
+        <ImageButton
+            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/tictactoeboard"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:id="@+id/Tbtn12"/>
+        <ImageButton
+            android:layout_column="2"
+            android:layout_row="2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/tictactoeboard"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:id="@+id/Tbtn22"/>
+
+
+    </GridLayout>
+
+</LinearLayout>

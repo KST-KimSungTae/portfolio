@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/> <!-- 배경색 설정 -->
+    <corners android:radius="5dp" /> <!-- 모서리 둥글게 -->
+    <stroke android:color="#CD7F32" android:width="5dp"/> <!-- 테두리 색상 및 두께 -->
+</shape>
